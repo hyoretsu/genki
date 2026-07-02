@@ -9,7 +9,7 @@
 				"fullscreen": false,
 				"height": 800,
 				"resizable": true,
-				"title": "Example",
+				"title": "Genki",
 				"width": 400
 			}
 		],
@@ -32,7 +32,7 @@
 		],
 		"targets": "all"
 	},
-	"identifier": "com.example.app",
-	"productName": "Example",
+	"identifier": "com.hyoretsu.genki",
+	"productName": "Genki",
 	"version": "1.0.0"
 }

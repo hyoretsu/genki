@@ -1,12 +1,12 @@
 [package]
-name = "template"
+name = "genki"
 version = "1.0.0"
-description = "Personal Finance App"
-authors = ["you"]
+description = "Offline-first treatment tracking app"
+authors = ["Aran Leite"]
 edition = "2021"
 
 [lib]
-name = "template_lib"
+name = "genki_lib"
 crate-type = ["lib", "cdylib", "staticlib"]
 
 [build-dependencies]
