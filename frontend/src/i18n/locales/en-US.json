@@ -6,7 +6,8 @@
 			"ok": "OK"
 		},
 		"app": {
-			"name": "Template App"
+			"name": "Genki",
+			"tagline": "Offline-first treatment planning, reminders, adherence history, and Premium Google Drive sync."
 		},
 		"auth": {
 			"defaultUserName": "Demo user",
@@ -15,26 +16,61 @@
 			}
 		},
 		"home": {
-			"auth": {
-				"description": "Backed by a persisted Zustand store.",
-				"emailLabel": "Email",
-				"passwordLabel": "Password",
-				"signedInAs": "Signed in as {{name}}",
-				"signIn": "Sign in locally",
-				"signingIn": "Signing in...",
-				"signOut": "Sign out",
-				"title": "Auth example"
-			},
 			"hero": {
-				"badge": "Frontend template",
-				"description": "This starter keeps the frontend intentionally small. Real apps can call generated hooks directly from routes or focused components, without a hand-written API wrapper in between.",
-				"title": "Simple route, local auth state, and room for generated API hooks."
+				"badge": "Offline treatment tracking",
+				"description": "Plan medication routines, keep reminders on this device, and add Google Drive backup when Premium is active.",
+				"metrics": ["Local reminders first", "Google Drive sync with Premium", "No backend required"],
+				"title": "Genki"
 			},
-			"pattern": {
-				"description": "Keep template examples boring, direct, and easy to replace.",
-				"firstParagraph": "Put app-level state in <storePath>src/stores</storePath>, route UI in <routesPath>src/routes</routesPath>, and provider setup in <providersPath>src/providers.tsx</providersPath>.",
-				"secondParagraph": "When a real API exists, keep <apiPath>src/lib/api</apiPath> for generated backend hooks and call those hooks from the route or component that owns the screen.",
-				"title": "Use this pattern"
+			"sync": {
+				"action": "Review sync",
+				"badge": "Premium",
+				"description": "Google Drive backup stays separate from local treatment tracking.",
+				"items": [
+					{
+						"description": "Treatment plans and adherence history remain available without internet.",
+						"title": "Works offline"
+					},
+					{
+						"description": "Mobile store subscription unlocks backup and restore for $2.99/month.",
+						"title": "Store IAP first"
+					},
+					{
+						"description": "The purchase model leaves room for classic web checkout later.",
+						"title": "Web purchases later"
+					}
+				],
+				"price": "$2.99/month",
+				"priceDescription": "Premium unlocks Google Drive sync only. Local plans, reminders, and history stay free.",
+				"title": "Sync when you want backup"
+			},
+			"treatment": {
+				"badge": "Today",
+				"description": "Amoxicillin 500 mg, three reminders daily, for seven days.",
+				"instructions": "Take with food and a full glass of water.",
+				"instructionsLabel": "Instructions",
+				"nextLabel": "Next reminder",
+				"nextTime": "21:00",
+				"primaryAction": "Mark taken",
+				"schedule": [
+					{
+						"label": "Morning dose",
+						"status": "Taken",
+						"time": "08:00"
+					},
+					{
+						"label": "Afternoon dose",
+						"status": "Taken",
+						"time": "14:00"
+					},
+					{
+						"label": "Night dose",
+						"status": "Upcoming",
+						"time": "21:00"
+					}
+				],
+				"secondaryAction": "Reschedule",
+				"title": "Treatment plan"
 			}
 		}
 	}
