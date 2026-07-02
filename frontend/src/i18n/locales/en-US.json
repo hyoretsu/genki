@@ -7,6 +7,12 @@
 		},
 		"app": {
 			"name": "Genki",
+			"nav": {
+				"newPlan": "New plan",
+				"plans": "Plans",
+				"sync": "Sync",
+				"today": "Today"
+			},
 			"tagline": "Offline-first treatment planning, reminders, adherence history, and Premium Google Drive sync."
 		},
 		"auth": {
@@ -14,6 +20,13 @@
 			"errors": {
 				"invalidCredentials": "Use any email and a password with at least 6 characters."
 			}
+		},
+		"conflicts": {
+			"keepLocal": "Keep local",
+			"keepRemote": "Keep Drive",
+			"local": "This device",
+			"remote": "Google Drive",
+			"title": "Sync conflicts need review"
 		},
 		"home": {
 			"hero": {
@@ -72,6 +85,116 @@
 				"secondaryAction": "Reschedule",
 				"title": "Treatment plan"
 			}
+		},
+		"notification": {
+			"permission": {
+				"denied": "Denied",
+				"granted": "Granted",
+				"unknown": "Not requested"
+			}
+		},
+		"occurrence": {
+			"state": {
+				"missed": "Missed",
+				"rescheduled": "Rescheduled",
+				"skipped": "Skipped",
+				"taken": "Taken",
+				"upcoming": "Upcoming"
+			}
+		},
+		"plan": {
+			"state": {
+				"active": "Active",
+				"archived": "Archived",
+				"completed": "Completed",
+				"paused": "Paused"
+			}
+		},
+		"planForm": {
+			"actions": {
+				"create": "Create plan"
+			},
+			"description": "Preserve the wording from the label or clinician instructions. Genki only structures the reminder schedule.",
+			"fields": {
+				"instructions": "Instructions",
+				"name": "Treatment name",
+				"ongoing": "This plan is ongoing",
+				"periodDuration": "Every",
+				"periodUnit": "Period",
+				"repetitions": "Repetitions",
+				"startDate": "Start date",
+				"times": "Reminder times"
+			},
+			"title": "Create treatment plan"
+		},
+		"plans": {
+			"actions": {
+				"archive": "Archive",
+				"complete": "Complete",
+				"pause": "Pause",
+				"resume": "Resume"
+			},
+			"description": "Plans keep completed occurrence history intact when future schedules change.",
+			"duration": "Duration",
+			"ongoing": "Ongoing",
+			"repetitions": "{{count}} {{unit}} periods",
+			"schedule": "Schedule",
+			"title": "Treatment plans"
+		},
+		"premium": {
+			"state": {
+				"active": "Active",
+				"dev": "Developer entitlement",
+				"expired": "Expired",
+				"inactive": "Inactive"
+			}
+		},
+		"settings": {
+			"notifications": {
+				"action": "Request permission",
+				"description": "Plan creation works without permission. Reminders require OS notification access.",
+				"permission": "Permission",
+				"title": "Local reminders"
+			},
+			"premium": {
+				"description": "$2.99/month unlocks Google Drive sync and backup. Local treatment tracking stays free.",
+				"purchase": "Purchase",
+				"restore": "Restore",
+				"status": "Entitlement",
+				"title": "Premium"
+			},
+			"sync": {
+				"connect": "Connect",
+				"description": "Use app-owned Google Drive storage. Conflicting edits are kept for manual review.",
+				"disconnect": "Disconnect",
+				"email": "Google account",
+				"status": "Sync",
+				"syncNow": "Sync now",
+				"title": "Google Drive sync"
+			}
+		},
+		"sync": {
+			"state": {
+				"conflict": "Conflict",
+				"error": "Error",
+				"offline": "Offline",
+				"pending": "Pending",
+				"synced": "Synced"
+			}
+		},
+		"today": {
+			"actions": {
+				"reschedule": "Later",
+				"skip": "Skip",
+				"taken": "Taken"
+			},
+			"description": "Confirm each scheduled treatment without changing past history.",
+			"emptyDescription": "Create a plan or resume a paused plan to see reminders here.",
+			"emptyTitle": "No treatment occurrences due today.",
+			"safetyDescription": "Genki tracks what you entered. Follow the medication label or clinician instructions when they differ from the app schedule.",
+			"safetyTitle": "Health note",
+			"title": "Today",
+			"unknownPlan": "Treatment"
 		}
 	}
 }
