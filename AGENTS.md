@@ -15,7 +15,7 @@ Local work is fine: edit files, run local builds/tests, commit locally. Stop at 
 
 ## Business Rules — Source of Truth
 
-Project-specific product rules live in [`docs/business-rules.md`](docs/business-rules.md). Keep AGENTS.md focused on agent workflow and engineering conventions; move domain/product rules there instead.
+Project-specific product rules live under [`docs/business-rules.md`](docs/business-rules.md) and the [`docs/business-rules/`](docs/business-rules/) folder. Keep `docs/business-rules.md` as an index/LLM routing guide, and organize the actual rules across multiple topical Markdown files. Keep AGENTS.md focused on agent workflow and engineering conventions; move domain/product rules to the business-rules docs instead.
 
 ## Git Commits — Required After Every Completed Task
 
